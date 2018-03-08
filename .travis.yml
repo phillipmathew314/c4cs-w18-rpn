@@ -3,5 +3,6 @@ python:
   - '3.5'
 install:
   - pip install rpn
+  - pip install pytest
 script:
-  - python test-rpn.py
+  - py.test
