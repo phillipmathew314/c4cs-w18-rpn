@@ -3,6 +3,5 @@ python:
   - '3.5'
 install:
   - pip install rpn
-  - pip install operator
 script:
   - python test-rpn.py
