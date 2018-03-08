@@ -5,4 +5,4 @@ install:
   - pip install rpn
   - pip install pytest
 script:
-  - py.test
+  - py.test test-rpn.py
